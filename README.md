@@ -28,7 +28,7 @@ The website should record the number of API calls for each login in the database
 
 The database should contain two columns: LOGIN and REQUEST_COUNT. REQUEST_COUNT should be incremented by one for each service call.
 
-## Technological stack of implemented assessment
+## Technological stack of implementation
 - Java 17
 - SpringBoot 3.1.0
 - Database: PostgreSQL
