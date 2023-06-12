@@ -1,5 +1,5 @@
 # Empik reqruitment assessment
-## The assessment:
+## The assessment
 Create a simple REST service that will return information
 - ID
 - login
@@ -28,7 +28,7 @@ The website should record the number of API calls for each login in the database
 
 The database should contain two columns: LOGIN and REQUEST_COUNT. REQUEST_COUNT should be incremented by one for each service call.
 
-## Technological stack
+## Technological stack of implemented assessment
 - Java 17
 - SpringBoot 3.1.0
 - Database: PostgreSQL
