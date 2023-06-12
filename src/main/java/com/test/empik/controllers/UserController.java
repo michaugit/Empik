@@ -17,9 +17,8 @@ public class UserController {
         this.userService = userService;
     }
 
-
     @GetMapping(path = "/{login}")
-    public ResponseEntity<?> getUserDetails(@PathVariable(value = "login") String login) {
+    public ResponseEntity<UserDetailsResponse> getUserDetails(@PathVariable(value = "login") String login) {
         UserDetailsResponse userDetailsResponse = userService.getUserDetails(login);
         return ResponseEntity.ok(userDetailsResponse);
     }
